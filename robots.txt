@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://myamamoto26.github.io/sitemap.xml
+Sitemap: https://planetary-saudade.github.io/sitemap.xml

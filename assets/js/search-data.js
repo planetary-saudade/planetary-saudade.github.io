@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://myamamoto26.github.io";
-let updatedUrl = currentUrl.replace("https://myamamoto26.github.io", "");
+const siteUrl = "https://planetary-saudade.github.io";
+let updatedUrl = currentUrl.replace("https://planetary-saudade.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
@@ -20,33 +20,33 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
+  },{id: "nav-research",
+          title: "Research",
+          description: "",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-outputs",
+          title: "Outputs",
           description: "",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
-          title: "cv",
-          description: "Updated April 2026. Click the right icon for the longer pdf version.",
+          title: "CV",
+          description: "Updated September 2026. Click the PDF icon for the full version.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-talks",
-          title: "talks",
-          description: "Invited talks and presentations",
+        },{id: "nav-community",
+          title: "Community",
+          description: "",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/talks/";
+            window.location.href = "/community/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -68,17 +68,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -301,17 +290,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-a-post-with-redirect",
         
           title: "a post with redirect",
@@ -416,84 +394,55 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-dark-energy-survey-year-6-3x2pt-legacy-cosmology-results-webinar",
-          title: 'Dark Energy Survey Year-6 3x2pt Legacy Cosmology Results webinar',
+            },},{id: "news-graduated-from-the-university-of-tokyo-with-a-b-sc-in-earth-and-planetary-physics-summa-cum-laude-farewell-chibutsu-article-link",
+          title: 'Graduated from the University of Tokyo with a B.Sc. in Earth and Planetary...',
           description: "",
-          section: "News",},{id: "news-des-year-6-duke-researchers-help-sharpen-our-picture-of-the-universe-s-expansion-using-weak-gravitational-lensing-article-link",
-          title: 'DES Year 6: Duke researchers help sharpen our picture of the universe’s expansion...',
+          section: "News",},{id: "news-started-my-ph-d-at-the-university-of-toronto-farewell-naoj-ahoy-u-of-t",
+          title: 'Started my Ph.D. at the University of Toronto. Farewell, NAOJ — ahoy, U...',
           description: "",
-          section: "News",},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-benchmarking-kinetic-sz-effects-as-probes-of-baryonic-feedback",
-          title: 'Benchmarking kinetic SZ effects as probes of baryonic feedback',
+          section: "News",},{id: "news-submitted-steepening-optical-slopes-in-exoplanet-transmission-spectra-with-charged-hazes-arxiv",
+          title: 'Submitted “Steepening Optical Slopes in Exoplanet Transmission Spectra with Charged Hazes.” [arXiv]',
+          description: "",
+          section: "News",},{id: "projects-constraining-tidal-efficiencies",
+          title: 'Constraining Tidal Efficiencies',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/baryon_ksz/";
-            },},{id: "projects-mitigating-the-impact-of-intrinsic-alignment-and-baryonic-feedback-in-des-y6",
-          title: 'Mitigating the impact of intrinsic alignment and baryonic feedback in DES Y6',
+              window.location.href = "/projects/asynchronous/";
+            },},{id: "projects-atmosphere-interior-co-evolution-of-rocky-planets",
+          title: 'Atmosphere-Interior (Co)evolution of Rocky Planets',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/desy6_blueshear/";
-            },},{id: "projects-dark-energy-survey-y6-cosmic-shear",
-          title: 'Dark Energy Survey Y6 Cosmic Shear',
+              window.location.href = "/projects/coevolution/";
+            },},{id: "projects-haze-charging-in-exoplanetary-atmospheres",
+          title: 'Haze Charging in Exoplanetary Atmospheres',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/desy6_cosmicshear/";
-            },},{id: "projects-dark-energy-survey-y6-shape-catalog",
-          title: 'Dark Energy Survey Y6 Shape Catalog',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/desy6_shapes/";
-            },},{id: "projects-image-combination-for-roman-space-telescope",
-          title: 'Image Combination for Roman Space Telescope',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/roman_imcom/";
-            },},{id: "projects-shape-measurement-on-simulated-roman-images",
-          title: 'Shape Measurement on Simulated Roman Images',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/roman_metacal/";
-            },},{id: "projects-exploring-the-baryonic-feedback-through-the-cross-correlation-of-cosmic-shear-and-thermal-sz-effect",
-          title: 'Exploring the baryonic feedback through the cross-correlation of cosmic shear and thermal SZ...',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/shearxtsz/";
+              window.location.href = "/projects/haze-charging/";
             },},{id: "projects-weather-forecast-and-climate-modeling-using-ml-ai",
           title: 'Weather Forecast and Climate Modeling using ML/AI',
           description: "Exploring weather forecasting and climate modeling with machine learning and the ClimaX foundation model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/weather_forecast/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/en-us//assets/pdf/[LANG]/Master_CV.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'Send an email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6D%61%73%61%79%61.%79%61%6D%61%6D%6F%74%6F@%70%72%69%6E%63%65%74%6F%6E.%65%64%75", "_blank");
+          window.open("mailto:%6D%61%73%61.%69%6E%61%69@%6D%61%69%6C.%75%74%6F%72%6F%6E%74%6F.%63%61", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/ymasaya", "_blank");
+          window.open("https://www.linkedin.com/in/masayuki-inai-306241324", "_blank");
         },
       },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0003-1585-997X", "_blank");
+          window.open("https://orcid.org/0009-0000-0961-4998", "_blank");
         },
       },{
       id: 'light-theme',
