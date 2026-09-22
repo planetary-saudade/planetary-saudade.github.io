@@ -1,14 +1,31 @@
 ---
-page_id: projects
+page_id: research
 layout: page
-title: projects
-permalink: /projects/
+title: Research
+permalink: /research/
 description:
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+
+display_categories:
+  - coevolution
+  - aerosols
+  - tides
+
 horizontal: false
 ---
+
+<div class="research-epigraph">
+  <p>
+    Up at the top of the slope, I can see the spot where Uncle sat last month looking out over the landscape.
+  </p>
+
+  <p>
+    "Umi no yo," he always said. "It's like the sea."
+  </p>
+
+  <span>— Joy Kogawa, <em>Obasan</em></span>
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">

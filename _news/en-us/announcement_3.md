@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2026-02-19
+date: 2026-03-25
 inline: true
 related_posts: false
 ---
 
-DES Year 6: Duke researchers help sharpen our picture of the universe's expansion using weak gravitational lensing
-<a href="https://trinity.duke.edu/news/duke-scientists-help-sharpen-picture-changing-universe">article link</a>
+Graduated from the University of Tokyo with a B.Sc. in Earth and Planetary Physics, summa cum laude. Farewell, Chibutsu! 
+<a href="https://www.s.u-tokyo.ac.jp/ja/info/11086/">article link</a>

@@ -9,10 +9,10 @@
 # arxiv_id: # your arXiv author ID
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/[LANG]/Master_CV.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/[LANG]/Master_CV.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: masaya.yamamoto@princeton.edu # your email address
+email: masa.inai@mail.utoronto.ca # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 # github_username: # your GitHub user name
@@ -26,10 +26,10 @@ email: masaya.yamamoto@princeton.edu # your email address
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: ymasaya # your LinkedIn user name
+linkedin_username: masayuki-inai-306241324 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0003-1585-997X # your ORCID ID
+orcid_id: 0009-0000-0961-4998 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons

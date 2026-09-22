@@ -31,10 +31,11 @@ layout: default
     <article>
       <div class="cv">
         {% for entry in site.data[site.active_lang].cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
+          {% if entry.contents and entry.contents.size > 0 %}
+            <a class="anchor" id="{{ entry.title }}"></a>
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+              <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
               {% elsif entry.type == 'map' %}
@@ -50,10 +51,8 @@ layout: default
               {% endif %}
             </div>
           </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
+        {% endif %}
+      {% endfor %}
 {% else %}
   <!-- use data from assets/json/resume_LANG.json -->
   <div class="post">

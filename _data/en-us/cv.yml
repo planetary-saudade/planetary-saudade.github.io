@@ -2,100 +2,139 @@
   type: map
   contents:
     - name: Full Name
-      value: Masaya Yamamoto
-    # - name: Date of Birth
-    #   value: 14th March 1879
+      value: Masayuki Inai
     - name: Languages
       value: Japanese, English
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Duke University, North Carolina, USA
+    - title: Ph.D. in Astronomy and Astrophysics
+      institution: University of Toronto, Toronto, Canada
+      year: 2026 - Present
+
+    - title: B.Sc. in Earth and Planetary Physics (summa cum laude)
+      institution: The University of Tokyo (東京大学), Tokyo, Japan
+      year: 2022 - 2026
+
+    - title: High School Diploma
+      institution: Nada High School (灘中学校・高等学校), Kobe, Japan
+      year: 2016 - 2022
+
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Charged Hazes in Exoplanet Atmospheres
+      institution: The University of Tokyo
+      year: 2025 - 2026
+      description:
+        - "<b>Supervisors:</b> Shota Notsu and Kazumasa Ohno"
+        - Investigated how electrostatic charging affects haze growth and transmission spectra in exoplanet atmospheres.
+
+    - title: Tidal Dissipation in Asynchronous Planetary Systems
+      institution: The University of Tokyo
+      year: 2024 - Present
+      description:
+        - "<b>Supervisors:</b> Takato Tokuno and Akihiko Fukui"
+        - Constraining stellar tidal dissipation using the orbital and rotational evolution of close-in planetary systems.
+
+    - title: Semiconvection in Gas Giants
+      institution: Princeton University
       year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: BA
-      institution: Boston University, Massachusetts, USA
-      year: 2019
-      description:
-        - Description 1.
-        - Description 2.
+        - "<b>Supervisors:</b> Yubo Su, Ankan Sur, and Adam Burrows"
+        - Studied the evolution of semiconvective regions in giant planets using hydrodynamical simulations.
 
-- title: Experience
+    - title: Supermassive Black Holes and Host Galaxies
+      institution: Max Planck Institute for Extraterrestrial Physics
+      year: 2025
+      description:
+        - "<b>Supervisor:</b> Taro Shimizu and Linda Tacconi"
+        - Estimated galaxy and black-hole masses through spectral energy distribution fitting and related analyses.
+
+    - title: Orbital Decay of TOI-263b
+      institution: The University of Tokyo
+      year: 2022 - 2023
+      description:
+        - "<b>Supervisors:</b> Akihiko Fukui and Norio Narita"
+        - Searched for orbital decay using TESS and ground-based transit observations.
+
+
+- title: Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - year: 2026
+      items:
+        - "<b>Masayuki Inai</b>, Kazumasa Ohno, and Shota Notsu, <i>Steepening Optical Slopes in Exoplanet Transmission Spectra with Charged Hazes</i>, submitted to The Astrophysical Journal."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Presentations
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
+    - year: 2026
+      items:
+        - "JpGU-AGU Joint Meeting — Charged Hazes in Exoplanetary Atmospheres"
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2025
+      items:
+        - "TDLI ICEPF — The Evolution of Semiconvection in Gas Giants"
+        - "Astronomical Society of Japan Fall Meeting — Limiting the Tidal Quality Factors for Asynchronous Star-planet Systems under Magnetic Braking"
 
-- title: Honors and Awards
+
+- title: Honors & Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Faculty of Science Academic Excellence Award (理学部学修奨励賞), The University of Tokyo
+        - Summa Cum Laude, Department of Earth and Planetary Physics
+        - Best Senior Thesis, Department of Earth and Planetary Physics
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+    - year: 2021
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Bronze Medal, Japanese Earth Science Olympiad
+        - Silver Medal, Japanese Geography Olympiad
 
-- title: Other Interests
-  type: list
+    - year: 2019
+      items:
+        - Silver Medal, Japanese Geography Olympiad
+
+- title: Grants & Scholarships
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2026 - 2028
+      items:
+        - University of Toronto Arts & Science Entrance Funds
+
+    - year: 2025
+      items:
+        - Max Planck Gesellschaft Fund
+        - UTokyo EPS Fund
+
+    - year: 2024
+      items:
+        - IPMU-Princeton Joint Fund
+
+
+- title: Community & Outreach
+  type: time_table
+  contents:
+    - title: Chief Coordinator, Nada Math and Physics Camp (灘校理数合宿)
+      institution: Nada High School
+      year: 2022 - 2026
+      description:
+        - Founded and organized an intensive mathematics and physics excursion program connecting ambitious students with leading researchers and alumni.
+
+    - title: Mentor, HAGI Trailblazer Program for Academic Navigation (はぎたん)
+      institution: Hagi City
+      year: 2024
+      description:
+        - Mentored high-school students and gave lectures on science and critical thinking.
+
+    - title: Staff
+      institution: International Physics Olympiad 2023, Tokyo
+      year: 2023
+      description:
+        - Supported participating teams during IPhO 2023.

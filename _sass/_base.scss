@@ -220,7 +220,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
 
     .address {
       p {
@@ -1534,4 +1534,65 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
+}
+
+.epigraph {
+  margin: 1.5rem 0 3rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--global-theme-color);
+}
+
+.epigraph p {
+  margin-bottom: 0.3rem;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: var(--global-theme-color);
+}
+
+.epigraph span {
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+}
+
+.research-epigraph {
+  margin: 1.2rem 0 2.5rem 0;
+  max-width: 800px;
+}
+
+.research-epigraph p,
+.research-epigraph span {
+  color: var(--global-text-color);
+  opacity: 0.55;
+}
+
+.research-epigraph p {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.research-epigraph span {
+  font-size: 0.8rem;
+}
+
+.community-epigraph {
+  margin: 1.2rem 0 2.5rem 0;
+}
+
+.community-epigraph p,
+.community-epigraph span {
+  color: var(--global-text-color);
+  opacity: 0.65;
+}
+
+.community-epigraph p {
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.community-epigraph span {
+  font-size: 0.8rem;
 }

@@ -162,3 +162,9 @@ search:
   theme: Theme
 selected_publications: selected publications
 site_description: Observational cosmologist at Princeton University studying the nature of dark energy and dark matter.
+
+
+categories:
+  coevolution: Atmosphere-Interior Coevolution
+  aerosols: Exoplanetary Aerosols
+  tides: Exoplanetary Tides

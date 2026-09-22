@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-01-22
+date: 2026-09-10
 inline: true
 related_posts: false
 ---
 
-Dark Energy Survey Year-6 3x2pt Legacy Cosmology Results <a href="https://www.darkenergysurvey.org/des-y6-3x2pt-results-webinar-january-22-2026/">webinar</a> 
+Submitted "Steepening Optical Slopes in Exoplanet Transmission Spectra with Charged Hazes." [[arXiv](https://arxiv.org/abs/2609.12240)]

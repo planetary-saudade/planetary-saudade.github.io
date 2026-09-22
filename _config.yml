@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Masaya Yamamoto (山本将也) # the website title (if blank, full name will be used instead)
-first_name: Masaya
+title: Masayuki Inai (稲井 雅之) # the website title (if blank, full name will be used instead)
+first_name: Masayuki
 middle_name: 
-last_name: Yamamoto (山本将也)
-keywords: weak gravitational lensing # add your own keywords or leave empty
+last_name: Inai (稲井 雅之)
+keywords: (exo)planatary geophysics # add your own keywords or leave empty
 icon: 🔭 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://myamamoto26.github.io # the base hostname & protocol for your site
+url: https://planetary-saudade.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -119,17 +119,7 @@ disqus_shortname: multi-language-al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -198,7 +188,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_einstein.md
   - _pages/pt-br/
   - _projects/pt-br/
   - purgecss.config.js
@@ -284,8 +273,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Yamamoto]
-  first_name: [Masaya]
+  last_name: [Inai]
+  first_name: [Masayuki]
 
   style: apa
   locale: en
@@ -661,8 +650,6 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
   - data: resume_pt-br
     json: assets/json/resume_pt-br.json # it can also be an url
 
