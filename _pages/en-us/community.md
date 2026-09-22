@@ -53,7 +53,7 @@ I led efforts to expand and enhance the Earth and Planetary Physics exhibits at 
 <div style="clear: both;"></div>
 
 #### International Physics Olympiad 2023
-*Staff · Tokyo, 2023*
+*Staff, 2023*
 
 I served as staff at the International Physics Olympiad 2023 in Tokyo, supporting the Russian and Kyrgyz teams during the competition. Although I never made it to the IPhO as a high school student, Japan’s national Physics Olympiad introduced me to kindred spirits and opened the door to the rich and expansive world of physics.
 
@@ -64,7 +64,7 @@ I served as staff at the International Physics Olympiad 2023 in Tokyo, supportin
 ## Community Engagement
 
 #### Nada Students Abroad Association (灘校海外学生会)
-*Community Coordinator ·　2026–Present*
+*Community Coordinator · 2026–Present*
 
 Together with several fellow alumni, I co-founded a network for Nada alumni pursuing undergraduate or graduate degrees abroad, which also includes current students and recent alumni considering overseas paths. Our goal is to make overseas academic paths more visible and accessible to current students and recent alumni, while exploring the global potential of the Nada community.
 
