@@ -38,9 +38,9 @@ Ahoy! I’m Masa! I am a first-year Ph.D. student in the David A. Dunlap Departm
 
 I am mainly interested in theoretical and computational studies of (exo)planetary structure from a geophysical perspective. My ultimate goal is to understand the ubiquity of oceans in the universe from formation and evolution history. My research interests also extend to dynamics, protoplanetary disks, and other astrophysical topics beyond planetary systems. I am also involved in a variety of community and outreach activities.
 
-## Research Interests
+## Current Research Interests
 
-- **Atmosphre-Interior Coevolution**  
+- **Atmosphere-Interior Coevolution**  
   Understanding the long-term coevolution of planetary interiors and atmospheres.
 
 - **Exoplanetary Aerosols**  
